@@ -15,7 +15,7 @@ Use your favorite plugin manager to install the plugin. For example, with `lazy.
 
 ```lua
 {
-    "your-username/json-format",
+    "osullivandonal/json-format",
     config = function()
         require("json-format").setup()
     end,
@@ -49,11 +49,5 @@ keybinding descriptions)
 
 ## License
 
-This plugin is licensed under the MIT License.
-
-```
-
-This README provides a clear overview of your plugin, its features, 
-installation instructions, key mappings, and configuration options. Let me 
-know if you'd like to add or modify anything!
-
+This plugin is licensed under the **GNU General Public License v2.0**. See the
+`LICENSE` file for more details.
