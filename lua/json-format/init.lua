@@ -5,7 +5,7 @@ function M.setup(opts)
 
 	-- Register 'j' prefix description for LazyVim
 	require("which-key").add({
-		["<leader>j"] = { group = "JSON Formatter" },
+		{ "<leader>j", group = "JSON Formatter" },
 	})
 
 	-- Expand JSON (pretty-print)
